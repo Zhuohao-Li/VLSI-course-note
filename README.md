@@ -1,12 +1,8 @@
 # Dawson's Lee's Lecture Notes
 
----
-
 This repo contains my notes for MR324 VLSI digital interaction theory
 
 ## Contribution
-
----
 
 Feel free to discuss and help improve the notes by submitting an issue. I'll look into it and update my notes. I hope that my notes would contribute to your academic well-being in these courses.
 
@@ -14,13 +10,9 @@ I'm grateful to every one who wants to contribute. However, I decided not to acc
 
 ## Courses
 
----
-
 VLSI design by Professor G.H. He, 2022 Spring
 
 ## Tips
-
----
 
 **Commit Policy** I'll only retain the latest commit of this repo. Therefore, you won't be able to browse history. But I'll state what changes I've made each time in CHANGELOG.md. This repo will be updated in-time during the process of the class taken.
 
@@ -41,8 +33,6 @@ My notes serve as an outline for a course. In these notes, I won't dive too deep
 - For final-term revision, I would make mindmaps from textbook and slides. This part will be uploaded when it comes to last few weeks of a semester.
 
 ## License
-
----
 
 Unlike other repositories on GitHub, I do NOT provide a license for this repository. Thereby, users can not "copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation". This page describes what a user should do on no license project. After all, you're free to view these note yourself. PLEASE DON'T:
 

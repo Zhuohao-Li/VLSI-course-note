@@ -12,6 +12,16 @@ I'm grateful to every one who wants to contribute. However, I decided not to acc
 
 VLSI design by Professor G.H. He, 2022 Spring
 
+## Category
+
+- `hw` Assignments in the class
+- `lab` lab source code and materials in this course
+  - `lab1`
+- `notes` class notes
+  - `Folding.pdf`
+  - `Systolic_array.pdf`
+  - `Unfolding.pdf`
+
 ## Tips
 
 **Commit Policy** I'll only retain the latest commit of this repo. Therefore, you won't be able to browse history. But I'll state what changes I've made each time in CHANGELOG.md. This repo will be updated in-time during the process of the class taken.

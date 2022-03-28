@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.srcs/sources_1/new/DirectIIR_liuqi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DirectIIR_liuqi
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.srcs/sources_1/new/pole.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pole
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.srcs/sources_1/new/zero.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zero
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.srcs/sim_1/new/DirectIIR_liuqi_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IIRDirect_vlg_tst
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_gen_0

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jun 11 13:44:31 2018
+# Process ID: 33448
+# Current directory: C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.runs/synth_1
+# Command line: vivado.exe -log DirectIIR_liuqi.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DirectIIR_liuqi.tcl
+# Log file: C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.runs/synth_1/DirectIIR_liuqi.vds
+# Journal file: C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DirectIIR_liuqi.tcl -notrace

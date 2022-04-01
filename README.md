@@ -15,6 +15,16 @@ VLSI design by Professor G.H. He, 2022 Spring
 ## Category
 
 - `hw` Assignments in the class
+  - `bound_iteration`
+  - `pipeline`
+  - `retiming`
+  - `unfold`
+  - `fold`
+  - `systolic`
+  - `signal`
+  - `ref`: some reference materials
+    - from former students
+    - from the course origin: U of M.
 - `lab` lab source code and materials in this course
   - `lab1`
 - `notes` class notes
@@ -26,7 +36,7 @@ VLSI design by Professor G.H. He, 2022 Spring
 
 **Commit Policy** I'll only retain the latest commit of this repo. Therefore, you won't be able to browse history. But I'll state what changes I've made each time in CHANGELOG.md. This repo will be updated in-time during the process of the class taken.
 
-**Made with Notions** Most of the notes are written with [Notions](https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=372709093351&utm_term=notion&targetid=aud-1053779029641:kwd-312974742&gclid=CjwKCAiA1JGRBhBSEiwAxXblwYRKxpPsqTgNvjj7pp2kCAsaWKtZHUdpi2WEqYT-bUTjgEklkBTNSBoC65AQAvD_BwE). I just make pdf exports of these notes in public. If you want, you may request a copy of org-mode source code by sending email to me.
+**Made with Notions** Most of the notes are written with [Notions](https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=372709093351&utm_term=notion&targetid=aud-1053779029641:kwd-312974742&gclid=CjwKCAiA1JGRBhBSEiwAxXblwYRKxpPsqTgNvjj7pp2kCAsaWKtZHUdpi2WEqYT-bUTjgEklkBTNSBoC65AQAvD_BwE) and TexStudio. I just make pdf exports of these notes in public. If you want, you may request a copy of org-mode source code by sending email to me.
 
 **Notes Availability** I decided to retain these notes on GitHub. All notes are only intended for ONLINE READING.
 

@@ -1,0 +1,2 @@
+define worklib D:/work_tmp/LPF/verilog/INCA_libs/worklib
+include $CDS_INST_DIR/tools/inca/files/cds.lib

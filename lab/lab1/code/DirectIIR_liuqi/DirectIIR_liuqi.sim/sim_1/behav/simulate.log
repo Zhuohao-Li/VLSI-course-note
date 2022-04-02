@@ -1,0 +1,4 @@
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+WARNING: Too many words specified in data file C:/Users/GodWa/Desktop/DirectIIR_liuqi/SinIn.txt
+$finish called at time : 636 us : File "C:/Users/GodWa/Desktop/DirectIIR_liuqi/DirectIIR_liuqi.srcs/sim_1/new/DirectIIR_liuqi_sim.v" Line 33

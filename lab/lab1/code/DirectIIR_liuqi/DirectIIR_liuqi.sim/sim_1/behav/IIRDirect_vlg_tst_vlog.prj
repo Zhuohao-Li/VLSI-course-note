@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../DirectIIR_liuqi.srcs/sources_1/new/DirectIIR_liuqi.v"
+verilog xil_defaultlib  "../../../DirectIIR_liuqi.srcs/sources_1/new/pole.v"
+verilog xil_defaultlib  "../../../DirectIIR_liuqi.srcs/sources_1/new/zero.v"
+verilog xil_defaultlib  "../../../DirectIIR_liuqi.srcs/sim_1/new/DirectIIR_liuqi_sim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

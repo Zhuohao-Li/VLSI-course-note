@@ -27,6 +27,7 @@ VLSI design by Professor G.H. He, 2022 Spring
     - from the course origin: U of M.
 - `lab` lab source code and materials in this course
   - `lab1`
+    - the overview of lab1 is ![1](image/lab1_v1.jpeg)
 - `notes` class notes
   - `Folding.pdf`
   - `Systolic_array.pdf`

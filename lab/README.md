@@ -3,7 +3,9 @@
 ## Category
 
 - `lab1`
-  - update: April 10, 2022 update `new code for lab 1`
+  - update: April 10, 2022 update `new_code_for_lab1`
+  - overview and **number** in `./new_code_for_lab1/filter_origin.v` is
+  - ![1](./new_code_for_lab1/lab1_num.jpeg)
 
 ## License
 

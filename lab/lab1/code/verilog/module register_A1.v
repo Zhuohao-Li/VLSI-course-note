@@ -5,11 +5,11 @@ module IIR_Filter_8(Data_out,
     parameter order         = 16;
     parameter word_size_in  = 8;
     parameter word_size_out = 2*word_size_in + 2;
-    parameter b0            = 10'b0000000110;    //前馈滤波器系�?
+    parameter b0            = 10'b0000000110;    //前馈滤波器系�?
     parameter b1            = 10'b0;
     parameter b2            = 10'b1111010010;
     parameter b3            = 10'b0;
-    parameter b4            = 10'b0010100001;
+    parameter b4            = 10'b0000000000;
     parameter b5            = 10'b0;
     parameter b6            = 10'b1010111110;
     parameter b7            = 10'b0;
@@ -22,7 +22,7 @@ module IIR_Filter_8(Data_out,
     parameter b14           = 10'b1111010010;
     parameter b15           = 0;
     parameter b16           = 10'b0000000110;
-    parameter a1            = 10'b0010000000; //反馈滤波器系�?
+    parameter a1            = 10'b0010000000; //反馈滤波器系�?
     parameter a2            = 10'b1101110011;
     parameter a3            = 10'b0101001100;
     parameter a4            = 10'b1011010110;

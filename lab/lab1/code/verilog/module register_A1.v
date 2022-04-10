@@ -5,7 +5,7 @@ module IIR_Filter_8(Data_out,
     parameter order         = 16;
     parameter word_size_in  = 8;
     parameter word_size_out = 2*word_size_in + 2;
-    parameter b0            = 10'b0000000110;    //前馈滤波器系数
+    parameter b0            = 10'b0000000110;    //前馈滤波器系�?
     parameter b1            = 10'b0;
     parameter b2            = 10'b1111010010;
     parameter b3            = 10'b0;
@@ -22,7 +22,7 @@ module IIR_Filter_8(Data_out,
     parameter b14           = 10'b1111010010;
     parameter b15           = 0;
     parameter b16           = 10'b0000000110;
-    parameter a1            = 10'b0010000000; //反馈滤波器系数
+    parameter a1            = 10'b0010000000; //反馈滤波器系�?
     parameter a2            = 10'b1101110011;
     parameter a3            = 10'b0101001100;
     parameter a4            = 10'b1011010110;
@@ -60,7 +60,7 @@ module IIR_Filter_8(Data_out,
         else
         begin
             mid[0] = Data_in-a1*mid[1]-a2*mid[2]-a3*mid[3]-a4*mid[4]-a5*mid[5]-a6*mid[6]-a7*mid[7]-a8*mid[8]-a9*mid[9]-a10*mid[10]-a11*mid[11]-a12*mid[12]-a13*mid[13]-a14*mid[14]-a15*mid[15]-a16*mid[16]-a17*mid[17];
-            for(count = 2; count < order+1; count = count+1)
+            for(count = 1; count < order+1; count = count+1)
             begin
                 mid[count] <= mid[count-1];
             end

@@ -137,7 +137,7 @@ module filter_original(input clk,                      // clock signal
     );
     add A_a1(
     .data1(mul_out[0]),
-    .data2(data_in1),
+    .data2(add_out[32]),
     .result(add_out[0])
     );
     

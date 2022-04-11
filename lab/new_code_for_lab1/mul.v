@@ -28,6 +28,7 @@
 // Other :
 //
 // -FHDR------------------------------------------------------------------------
+`timescale 1 ns/ 1 ns
 module mul(input signed [7:0] data1,
            input signed [9:0] data2,
            output signed [18:0] result);

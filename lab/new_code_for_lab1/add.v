@@ -27,9 +27,10 @@
 // Other :
 //
 // -FHDR------------------------------------------------------------------------
+`timescale 1 ns/ 1 ns
 module add(input signed [18:0] data1,
            input signed [18:0] data2,
            output signed [18:0] result);
-    
-    assign result = data1 + data2;
+
+assign result = data1 + data2;
 endmodule

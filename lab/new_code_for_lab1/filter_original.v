@@ -26,6 +26,7 @@
 // Other :
 //
 // -FHDR------------------------------------------------------------------------
+`timescale 1 ns/ 1 ns
 module filter_original(input clk,                      // clock signal
                        input rst,                      // reset signal
                        input signed [7:0] data_in,     // input data

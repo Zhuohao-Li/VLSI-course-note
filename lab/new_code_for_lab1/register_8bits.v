@@ -28,6 +28,7 @@
 // Other :
 //
 // -FHDR------------------------------------------------------------------------
+`timescale 1 ns/ 1 ns
 module register_8bits(input clk,                     // clock signal
                       input rst,                     // reset signal
                       input wire[7:0] input_data,    // input data from input port or previous registers

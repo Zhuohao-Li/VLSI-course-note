@@ -4,13 +4,12 @@
 // FILE NAME : add.v
 // TYPE : module
 // DEPARTMENT : SJTU MicroE
-// AUTHOR : Lv Dongxu
-// AUTHORS EMAIL : lvdongxu@sjtu.edu.cn
+// AUTHOR : Zhuohao Lee
+// AUTHORS EMAIL : edith_lzh@sjtu.edu.cn
 // -----------------------------------------------------------------------------
 // Release history
 // VERSION              Date              AUTHOR        DESCRIPTION
-// 0.1               2019/3/24           Lv Dongxu     Signed Fixed-point Add
-// 0.2               2019/3/28           Lv Dongxu     Bandwidth change
+// 0.1               2022/4/11           Zhuohao Lee     Signed Fixed-point Add
 // -----------------------------------------------------------------------------
 // KEYWORDS : Add
 // -----------------------------------------------------------------------------

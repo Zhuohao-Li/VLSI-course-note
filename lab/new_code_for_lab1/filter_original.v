@@ -9,7 +9,7 @@
 // -----------------------------------------------------------------------------
 // Release history
 // VERSION              Date              AUTHOR        DESCRIPTION
-// 0.1               2019/3/24           Zhuohao Lee    The Main original Filter Module without optimization
+// 0.1               2022/4/11           Zhuohao Lee    The Main original Filter Module without optimization
 // -----------------------------------------------------------------------------
 // KEYWORDS : Filter, 1st Edition
 // -----------------------------------------------------------------------------
@@ -109,15 +109,15 @@ module filter_original(input clk,                      // clock signal
     );
     
     
-    mul M0(
-    .data1(data_in1),
+    mul M_b0(
+    .data1(add_out[32]),
     .data2(coe_b[0]),
     .result(mul_out[0])
     );
     register_8bits R0(
     .clk(clk),
     .rst(rst),
-    .input_data(data_in1),
+    .input_data(add_out[32]),
     .output_data(reg_out[0])
     );
     

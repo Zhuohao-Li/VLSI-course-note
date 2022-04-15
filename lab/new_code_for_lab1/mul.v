@@ -4,12 +4,12 @@
 // FILE NAME : mul.v
 // TYPE : module
 // DEPARTMENT : SJTU MicroE
-// AUTHOR : Lv Dongxu
+// AUTHOR : Zhuohao Lee
 // AUTHORS EMAIL : lvdongxu@sjtu.edu.cn
 // -----------------------------------------------------------------------------
 // Release history
 // VERSION              Date              AUTHOR        DESCRIPTION
-// 0.1               2019/3/24           Lv Dongxu     Signed Fixed-point Multiplication
+// 0.1               2022/4/11           Zhuohao Lee     Signed Fixed-point Multiplication
 //
 // -----------------------------------------------------------------------------
 // KEYWORDS : Filter, Mulplication, Fixed-point

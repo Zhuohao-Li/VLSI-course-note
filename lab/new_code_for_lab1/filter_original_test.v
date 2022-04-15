@@ -1,3 +1,31 @@
+// +FHDR------------------------------------------------------------------------
+// Copyright (c) 2022, HiSilicon.
+// -----------------------------------------------------------------------------
+// FILE NAME : filter_original_test.v
+// TYPE : module
+// DEPARTMENT : SJTU MicroE
+// AUTHOR : Zhuohao Lee
+// AUTHORS EMAIL : edith_lzh@sjtu.edu.cn
+// -----------------------------------------------------------------------------
+// Release history
+// VERSION              Date              AUTHOR        DESCRIPTION
+// 0.1               2022/4/11           Zhuohao Lee    Testbench
+// -----------------------------------------------------------------------------
+// KEYWORDS : Filter, 1st Edition
+// -----------------------------------------------------------------------------
+// PURPOSE : Lowpass Filter Module
+// -----------------------------------------------------------------------------
+// REUSE ISSUES
+// Reset Strategy : rst
+// Clock Domains : clk
+// Critical Timing : N/A
+// Test Features : N/A
+// Asynchronous I/F : N/A
+// Scan Methodology : N/A
+// Instantiations : N/A
+// Other :
+//
+// -FHDR------------------------------------------------------------------------
 `timescale 1 ns/ 1 ns
 module filter_original_test();
     

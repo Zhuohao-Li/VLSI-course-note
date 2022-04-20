@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1649915706">
+  <File Type="PA-TCL" Name="A2_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="A2_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="A2_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="A2_top.vds"/>
+  <File Type="RDS-UTIL" Name="A2_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="A2_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="A2_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="A2_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="A2_top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/A2_plus/A2_filter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../A2_filter.v"/>
+        <Attr Name="ImportTime" Val="1649578458"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/A2_plus/A2_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../A2_top.v"/>
+        <Attr Name="ImportTime" Val="1649593911"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/A2_plus/A2_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../A2_tb.v"/>
+        <Attr Name="ImportTime" Val="1649587099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="A2_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/timing.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../timing.xdc"/>
+        <Attr Name="ImportTime" Val="1649693052"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

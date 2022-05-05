@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Lab}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Digital baseband modulation and demodulation \& Simulation of OFDM Communication System}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Analysis}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Code}{3}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Result}{6}{subsubsection.2.1.3}%
+\contentsline {section}{\numberline {3}Conclusion}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Rethinking\& Answer to Questions in Lecture}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Problems}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Achievements}{10}{subsection.3.3}%

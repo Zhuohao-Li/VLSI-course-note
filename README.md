@@ -1,4 +1,4 @@
-# Dawson's Lee's Lecture Notes
+# SJTU MR324
 
 This repo contains my notes for MR324 VLSI digital interaction theory
 
